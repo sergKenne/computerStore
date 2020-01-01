@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="computer store">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+	<meta name="author" content="Serge Kenne">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>computer store</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<script defer src="js/fontawesome.js"></script>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css">
+
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+	
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="header__menu">
+				<div class="header__cell-nav-menu clearfix">
+					<div class="header__slide-menu clearfix">
+						<div class="header__slide-block-title js-slide-btn">
+							<span class="header__slide-btn">Home</span><i class="fas fa-chevron-circle-down header__slide-icon"></i>	
+						</div>
+						<div class="currency header__slide-currency">
+							<span class="currency__text currency__text--slide-menu">currencies:</span>
+							<select name="" id="" class="currency__device">
+								<option value="">usd</option>
+								<option value="">eur</option>
+								<option value="">gbp</option>
+							</select>
+						</div>
+					</div>
+					<div class="nav-menu header__nav-menu">
+						<ul class="nav-menu__list js-sublist clearfix">
+							<li class="nav-menu__item"><a href="index.html" class="nav-menu__link menu-active"><i class="fas fa-caret-right nav-menu__icon"></i>home</a></li>
+							<li class="nav-menu__item"><a href="categories.html" class="nav-menu__link"><i class="fas fa-caret-right nav-menu__icon"></i>products</a>
+								<ul class="nav-menu__subList">
+									<li class="nav-menu__subList-item"><a href="categories.html" class="nav-menu__subList-link">powersupplies</a></li>
+									<li class="nav-menu__subList-item"><a href="categories.html" class="nav-menu__subList-link">motherboards</a></li>
+									<li class="nav-menu__subList-item"><a href="categories.html" class="nav-menu__subList-link">monitor</a></li>
+									<li class="nav-menu__subList-item"><a href="categories.html" class="nav-menu__subList-link">memory</a></li>
+									<li class="nav-menu__subList-item"><a href="categories.html" class="nav-menu__subList-link">keyboards/mice</a></li>
+									<li class="nav-menu__subList-item"><a href="categories.html" class="nav-menu__subList-link">hard drives</a></li>
+									<li class="nav-menu__subList-item"><a href="categories.html" class="nav-menu__subList-link">games & gift ideas</a></li>
+									<li class="nav-menu__subList-item"><a href="categories.html" class="nav-menu__subList-link">floppy drives</a></li>
+									<li class="nav-menu__subList-item"><a href="categories.html" class="nav-menu__subList-link">fans(cooling)</a></li>
+									<li class="nav-menu__subList-item"><a href="categories.html" class="nav-menu__subList-link">drive enclosures</a></li>
+									<li class="nav-menu__subList-item"><a href="categories.html" class="nav-menu__subList-link">cpus(processers</a></li>
+									<li class="nav-menu__subList-item"><a href="categories.html" class="nav-menu__subList-link">controller cards</a></li>
+									<li class="nav-menu__subList-item"><a href="categories.html" class="nav-menu__subList-link">clearance</a></li>
+									<li class="nav-menu__subList-item"><a href="categories.html" class="nav-menu__subList-link">cd/dvd drives</a></li>
+									<li class="nav-menu__subList-item"><a href="categories.html" class="nav-menu__subList-link">cases</a></li>
+									<li class="nav-menu__subList-item"><a href="categories.html" class="nav-menu__subList-link">accessories</a></li>
+								</ul>
+							</li>
+							<li class="nav-menu__item"><a href="blog.html" class="nav-menu__link"><i class="fas fa-caret-right nav-menu__icon"></i>blog</a></li>
+							<li class="nav-menu__item"><a href="about.html" class="nav-menu__link"><i class="fas fa-caret-right nav-menu__icon"></i>about us</a></li>
+							<li class="nav-menu__item"><a href="documentation.html" class="nav-menu__link"><i class="fas fa-caret-right nav-menu__icon"></i>documentation</a></li>
+							<li class="nav-menu__item"><a href="contact.html" class="nav-menu__link"><i class="fas fa-caret-right nav-menu__icon"></i>contact us</a></li>
+						</ul>
+					</div>
+					<div class="currency header__currency">
+						<span class="currency__text">currencies:</span>
+						<select name="" id="" class="currency__device">
+							<option value="">usd</option>
+							<option value="">eur</option>
+							<option value="">gbp</option>
+						</select>
+					</div>
+				</div>
+			</div>				
+			<div class="header__cell-content clearfix">	
+				<div class="logo header__logo">
+					<a href="index.html" class="logo__link">computers</a>	
+				</div>
+				<div class="header__login">
+					<a href="login.html" class="main-btn">log in</a>
+				</div>			
+			</div>	
+		</div>
+		<!-- header end -->
+		<div class="content">
+			<div class="content__cell clearfix">
+				<div class="main-section content__main-section">
+					<div class="header-search main-section__header clearfix">
+						<div class="header-search__form-block">
+							<form class="header-search__form" action="" >
+								<input class="header-search__input" type="text" placeholder="Search store...">
+								<button class="header-search__btn type="button">search</button>
+							</form>
+						</div>
+						<div class="header-search__card">
+							<a href="#" class="header-search__card-link">
+								<span class="header-search__card-text">card:</span>
+								<span class="header-search__card-count">2</span>
+								<span class="header-search__card-item">item(s) - </span>
+								<span class="header-search__card-price"> €454.74</span>
+							</a>
+						</div>
+					</div>
+					<style type="text/css">
+
+						.flexslider {
+							margin-bottom: 0;
+
+						}
+
+						.flex-caption {
+						  /*width: 96%;*/
+						  width: 45%;
+						  padding: 2%;
+						  left: 0;
+						  bottom: 0;
+						  background: #fff;
+						  color: #000;
+						  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+						  font-size: 14px;
+						  line-height: 18px;
+						  /*border: 1px solid red;*/
+						  position: absolute;
+						  top: 2.5em;
+						  left: 52%;
+						}
+
+						.flex-control-nav {
+							display: none;
+						}
+
+						.flex-caption-header {
+							text-transform: uppercase;
+							color: #000;
+							font-size: 5em;
+							font-weight: bold;
+							margin-bottom: .5em;
+						}
+
+						.flex-caption-title {
+							text-transform: uppercase;
+							color: #75a72f;
+							font-size: 1.8em;
+							font-weight: 600;
+							margin-bottom: .5em;
+						}
+
+						.flex-caption-text {
+							color: #777777;
+						    font-size: 1em;
+						    line-height: 1.6;
+
+						}
+
+						.flex-caption-footer {
+
+						}
+
+						.flex-caption-aside {
+							float: left;
+						}
+
+						.flex-caption-subtitle {
+							text-transform: uppercase;
+							color: #000;
+							font-size: 1.5em;
+							font-weight: 700;
+							margin-top: 1em;
+							margin-bottom: .9em;
+							
+						}
+
+						.flex-caption-price {
+							color: #000;
+							font-size: 3.3em;
+							font-weight: bold;
+							
+						}
+
+						.flex-caption-btn {
+							float: right;
+							margin-top: 4.3em;
+						}
+
+						@media screen and (max-width: 1024px) {
+
+								.flex-caption-text {display: none;}
+
+								.flex-caption-header {font-size: 3.5em;}
+
+						    	.flex-caption-title {font-size: 1.4em;}
+
+						    	.flex-caption-price {font-size: 3em;}
+
+						    	.flex-caption-aside {float: none;}
+
+						    	.flex-caption-btn {float: none; margin-top: 3.5em;}
+						    }
+
+						    @media screen and (max-width: 768px) {
+
+								.flex-caption-header {font-size: 2.5em;}
+
+						    	.flex-caption-title {font-size: 1.1em;}
+
+						    	.flex-caption-subtitle {margin-bottom: .5em; }
+
+						    	.flex-caption-price {font-size: 2.1em;}
+
+						    	.flex-caption-btn { margin-top: 1.8em;}
+
+						    	.flex-caption { top: 1.2em;}
+						    }
+
+						     @media screen and (max-width: 425px) {
+						     	.flex-caption {
+						     		display: none;
+						     	}
+						     }
+					</style>
+					<div class="main-section__slider">
+						<div class="flexslider">
+							 <ul class="slides">
+							    <li>
+							        <img src="img/slide1_image.jpg" />
+							        <div class="flex-caption">
+							        	<h2 class="flex-caption-header">acer</h2>
+							        	<h3 class="flex-caption-title">Lorem ipsum dolor sit</h4>
+							        	<p class="flex-caption-text">
+							        		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus et magni itaque sapiente laborum illo repellendus ipsa nulla fugit, sint odio numquam ad dolorum eius earum harum officia minima aut eveniet amet ducimus adipisci.
+							        	</p>
+							        	<div class="flex-caption-footer clearfix">
+							        		<div class="flex-caption-aside">
+							        			<p class="flex-caption-subtitle">from</p>
+							        			<span class="flex-caption-price">€394.82</span>
+							        		</div>
+							        		<div class="flex-caption-btn">
+							        			<a href="#" class="main-btn main-btn--slide">shop now!</a>
+							        		</div>
+							        	</div>
+								    </div>
+							    </li>
+							    <li>
+							        <img src="img/slide2_image.jpg" />
+							        <div class="flex-caption">
+							        	<h2 class="flex-caption-header">asus</h2>
+							        	<h4 class="flex-caption-title">Lorem ipsum dolor sit</h4>
+							        	<p class="flex-caption-text">
+							        		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus et magni itaque sapiente laborum illo repellendus ipsa nulla fugit, sint odio numquam ad dolorum eius earum harum officia minima aut eveniet amet ducimus adipisci.
+							        	</p>
+							        	<div class="flex-caption-footer clearfix">
+							        		<div class="flex-caption-aside">
+							        			<p class="flex-caption-subtitle">from</p>
+							        			<span class="flex-caption-price">€711.34</span>
+							        		</div>
+							        		<div class="flex-caption-btn">
+							        			<a href="#" class="main-btn main-btn--slide">shop now!</a>
+							        		</div>
+							        	</div>
+								    </div>
+							    </li>
+							    <li>
+							        <img src="img/slide3_image.jpg" />
+							        <div class="flex-caption">
+							        	<h2 class="flex-caption-header">dell</h2>
+							        	<h4 class="flex-caption-title">Lorem ipsum dolor sit</h4>
+							        	<p class="flex-caption-text">
+							        		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus et magni itaque sapiente laborum illo repellendus ipsa nulla fugit, sint odio numquam ad dolorum eius earum harum officia minima aut eveniet amet ducimus adipisci.
+							        	</p>
+							        	<div class="flex-caption-footer clearfix">
+							        		<div class="flex-caption-aside">
+							        			<p class="flex-caption-subtitle">from</p>
+							        			<span class="flex-caption-price">€129.02</span>
+							        		</div>
+							        		<div class="flex-caption-btn">
+							        			<a href="#" class="main-btn main-btn--slide">shop now!</a>
+							        		</div>
+							        	</div>
+								    </div>
+							    </li>
+							 </ul>
+						</div>
+					</div>
+					<div class="products-type main-content__products-type clearfix">
+						<div class="products-type__item">
+							<a href="categories.html" class="products clearfix">
+								<div class="products__picture">
+									<img src="img/custom_showcase1_img.jpg" alt="" class="products__image">
+								</div>
+								<div class="products__description">
+									<h5 class="products__title">laptops</h5>	
+								    <p class="products__text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas asperiores nam eaque, officia . 
+								    </p>
+								    <div class="products__btn">
+								    	 <span class="main-btn">shop now!</span>
+								    </div>							   
+								</div>
+							</a>
+						</div>
+						<div class="products-type__item">
+							<a href="categories.html" class="products clearfix">
+								<div class="products__picture">
+									<img src="img/custom_showcase2_img.jpg" alt="" class="products__image">
+								</div>
+								<div class="products__description">
+									<h5 class="products__title">desktops</h5>	
+								    <p class="products__text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas asperiores nam eaque, officia . 
+								    </p>
+								    <div class="products__btn">
+								    	 <span class="main-btn">shop now!</span>
+								    </div>							   
+								</div>
+							</a>
+						</div>
+						<div class="products-type__item">
+							<a href="categories.html" class="products clearfix">
+								<div class="products__picture">
+									<img src="img/custom_showcase3_img.jpg" alt="" class="products__image">
+								</div>
+								<div class="products__description">
+									<h5 class="products__title">tablets</h5>	
+								    <p class="products__text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas asperiores nam eaque, officia . 
+								    </p>
+								    <div class="products__btn">
+								    	 <span class="main-btn">shop now!</span>
+								    </div>							   
+								</div>
+							</a>
+						</div>
+						<div class="products-type__item">
+							<a href="categories.html" class="products clearfix">
+								<div class="products__picture">
+									<img src="img/custom_showcase4_img.jpg" alt="" class="products__image">
+								</div>
+								<div href="#"class="products__description">
+									<h5 class="products__title">monitors</h5>	
+								    <p class="products__text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas asperiores nam eaque, officia . 
+								    </p>
+								    <div class="products__btn">
+								    	<span class="main-btn">shop now!</span>
+								    </div>							   
+								</div>
+							</a>
+						</div>	
+					</div>
+					<div class="featured-products main-content__featured-products"> 
+					 	<h2 class="featured-products__header">featured products</h2>
+					 	<div class="featured-products__wrapper-item clearfix">
+					 		<div class="featured-item featured-products__item clearfix">
+					 			<div class="featured-item__picture">
+					 				<a href="products.html" class="featured-item__image-link">
+					 					<img src="img/medium/dell_sp2309w_1_medium.png" alt="" class="featured-item__image">
+					 				</a>
+					 			</div>
+					 			<div class="featured-item__description">
+					 				<p class="featured-item__prices">
+					 					<span class="featured-item__new-price">€51.70</span>
+					 					<span class="featured-item__hold-price"></span>
+					 				</p>	
+				 					<h4 class="featured-item__title"><a href="" class="featured-item__link-title">DELL SP2309W</a></h4>
+				 					<p class="featured-item__text">
+				 					So, it is natural that this sphere is one of the most popular ones ...
+				 				    </p>
+				 					<div class="featured-item__btn">
+				 						<a href="#" class="addToCard-btn">
+				 							<span class="addToCard-btn__text">add to card</span>
+				 							<span class="addToCard-btn__icon"><i class="fa fa-shopping-cart"></i></span>
+				 						</a>
+				 					</div>
+				 					<a href="#" class="featured-item__view">
+				 						view<i class="fas fa-caret-right featured-item__icon"></i>
+				 					</a>
+					 			</div>
+					 			<span class="featured-item__sale">sale</span>
+					 		</div>
+					 		<div class="featured-item featured-products__item clearfix">
+					 			<div class="featured-item__picture">
+					 				<a href="products.html" class="featured-item__image-link">
+					 					<img src="img/medium/amd_sempron_145_processor_2_medium.png" alt="" class="featured-item__image">
+					 				</a>
+					 			</div>
+					 			<div class="featured-item__description">
+					 				<p class="featured-item__prices">
+					 					<span class="featured-item__new-price">€51.70</span>
+					 					<span class="featured-item__hold-price"></span>
+					 				</p>	
+				 					<h4 class="featured-item__title"><a href="" class="featured-item__link-title">AMD SEMPRON 145 PROCESSOR</a></h4>
+				 					<p class="featured-item__text">
+				 					So, it is natural that this sphere is one of the most popular ones ...
+				 				    </p>
+				 					<div class="featured-item__btn">
+				 						<a href="#" class="addToCard-btn">
+				 							<span class="addToCard-btn__text">add to card</span>
+				 							<span class="addToCard-btn__icon"><i class="fa fa-shopping-cart"></i></span>
+				 						</a>
+				 					</div>
+				 					<a href="#" class="featured-item__view">
+				 						view<i class="fas fa-caret-right featured-item__icon"></i>
+				 					</a>
+					 			</div>
+					 			<span class="featured-item__sale">sale</span>
+					 		</div>
+					 		<div class="featured-item featured-products__item clearfix">
+					 			<div class="featured-item__picture">
+					 				<a href="products.html" class="featured-item__image-link">
+					 					<img src="img/medium/corsair_gaming_audio_series_sp2200_1_medium.png" alt="" class="featured-item__image">
+					 				</a>
+					 			</div>
+					 			<div class="featured-item__description">
+					 				<p class="featured-item__prices">
+					 					<span class="featured-item__new-price">€51.70</span>
+					 					<span class="featured-item__hold-price"></span>
+					 				</p>	
+				 					<h4 class="featured-item__title"><a href="" class="featured-item__link-title">CORSAIR GAMING AUDIO SERIES SP2200</a></h4>
+				 					<p class="featured-item__text">
+				 					So, it is natural that this sphere is one of the most popular ones ...
+				 				    </p>
+				 					<div class="featured-item__btn">
+				 						<a href="#" class="addToCard-btn">
+				 							<span class="addToCard-btn__text">add to card</span>
+				 							<span class="addToCard-btn__icon"><i class="fa fa-shopping-cart"></i></span>
+				 						</a>
+				 					</div>
+				 					<a href="#" class="featured-item__view">
+				 						view<i class="fas fa-caret-right featured-item__icon"></i>
+				 					</a>
+					 			</div>
+					 			<span class="featured-item__sale">sale</span>
+					 		</div>
+					 		<div class="featured-item featured-products__item clearfix">
+					 			<div class="featured-item__picture">
+					 				<a href="products.html" class="featured-item__image-link">
+					 					<img src="img/medium/gaming_keyboard_g510_2_medium.png" alt="" class="featured-item__image">
+					 				</a>
+					 			</div>
+					 			<div class="featured-item__description">
+					 				<p class="featured-item__prices">
+					 					<span class="featured-item__new-price">€51.70</span>
+					 					<span class="featured-item__hold-price"></span>
+					 				</p>	
+				 					<h4 class="featured-item__title"><a href="" class="featured-item__link-title">DELL SP2309W</a></h4>
+				 					<p class="featured-item__text">
+				 					So, it is natural that this sphere is one of the most popular ones ...
+				 				    </p>
+				 					<div class="featured-item__btn">
+				 						<a href="#" class="addToCard-btn">
+				 							<span class="addToCard-btn__text">add to card</span>
+				 							<span class="addToCard-btn__icon"><i class="fa fa-shopping-cart"></i></span>
+				 						</a>
+				 					</div>
+				 					<a href="#" class="featured-item__view">
+				 						view<i class="fas fa-caret-right featured-item__icon"></i>
+				 					</a>
+					 			</div>
+					 			<span class="featured-item__sale">sale</span>
+					 		</div>
+					 		<div class="featured-item featured-products__item clearfix">
+					 			<div class="featured-item__picture">
+					 				<a href="products.html" class="featured-item__image-link">
+					 					<img src="img/medium/intel_core_i3-3220_2_medium.png" alt="" class="featured-item__image">
+					 				</a>
+					 			</div>
+					 			<div class="featured-item__description">
+					 				<p class="featured-item__prices">
+					 					<span class="featured-item__new-price">€51.70</span>
+					 					<span class="featured-item__hold-price"></span>
+					 				</p>	
+				 					<h4 class="featured-item__title"><a href="" class="featured-item__link-title">INTEL CORE I3-3220</a></h4>
+				 					<p class="featured-item__text">
+				 					So, it is natural that this sphere is one of the most popular ones ...
+				 				    </p>
+				 					<div class="featured-item__btn">
+				 						<a href="#" class="addToCard-btn">
+				 							<span class="addToCard-btn__text">add to card</span>
+				 							<span class="addToCard-btn__icon"><i class="fa fa-shopping-cart"></i></span>
+				 						</a>
+				 					</div>
+				 					<a href="#" class="featured-item__view">
+				 						view<i class="fas fa-caret-right featured-item__icon"></i>
+				 					</a>
+					 			</div>
+					 			<span class="featured-item__sale">sale</span>
+					 		</div>
+					 		<div class="featured-item featured-products__item clearfix">
+					 			<div class="featured-item__picture">
+					 				<a href="products.html" class="featured-item__image-link">
+					 					<img src="img/medium/intel_core_i5-3570k_3_medium.png" alt="" class="featured-item__image">
+					 				</a>
+					 			</div>
+					 			<div class="featured-item__description">
+					 				<p class="featured-item__prices">
+					 					<span class="featured-item__new-price">€51.70</span>
+					 					<span class="featured-item__hold-price"></span>
+					 				</p>	
+				 					<h4 class="featured-item__title"><a href="" class="featured-item__link-title">INTEL CORE I5-3570K</a></h4>
+				 					<p class="featured-item__text">
+				 					So, it is natural that this sphere is one of the most popular ones ...
+				 				    </p>
+				 					<div class="featured-item__btn">
+				 						<a href="#" class="addToCard-btn">
+				 							<span class="addToCard-btn__text">add to card</span>
+				 							<span class="addToCard-btn__icon"><i class="fa fa-shopping-cart"></i></span>
+				 						</a>
+				 					</div>
+				 					<a href="#" class="featured-item__view">
+				 						view<i class="fas fa-caret-right featured-item__icon"></i>
+				 					</a>
+					 			</div>
+					 			<span class="featured-item__sale">sale</span>
+					 		</div>
+					 	</div>
+					</div>				
+				</div>
+				<div class="left-side content__left-side">
+					<div class="left-side__nav">
+						<h2 class="left-side__title">collections</h2>
+						<ul class="left-side__list">
+							<li class="left-side__item"><a href="categories.html" class="left-side__link">accessories</a></li>
+							<li class="left-side__item"><a href="categories.html" class="left-side__link">cases</a></li>
+							<li class="left-side__item"><a href="categories.html" class="left-side__link">cd/dvd drives</a></li>
+							<li class="left-side__item"><a href="categories.html" class="left-side__link">clearance</a></li>
+							<li class="left-side__item"><a href="categories.html" class="left-side__link">controller cards</a></li>
+							<li class="left-side__item"><a href="categories.html" class="left-side__link">cpus (processors)</a></li>
+							<li class="left-side__item"><a href="categories.html" class="left-side__link">drive enclosures</a></li>
+							<li class="left-side__item"><a href="categories.html" class="left-side__link">fans (cooling)</a></li>
+							<li class="left-side__item"><a href="categories.html" class="left-side__link">floppy drives</a></li>
+							<li class="left-side__item"><a href="categories.html" class="left-side__link">games & gift ideas</a></li>
+							<li class="left-side__item"><a href="categories.html" class="left-side__link">hard drives</a></li>
+							<li class="left-side__item"><a href="categories.html" class="left-side__link">keyboards / mice</a></li>
+							<li class="left-side__item"><a href="categories.html" class="left-side__link">memory</a></li>
+							<li class="left-side__item"><a href="categories.html" class="left-side__link">monitors</a></li>
+							<li class="left-side__item"><a href="categories.html" class="left-side__link">motherboards</a></li>
+							<li class="left-side__item"><a href="categories.html" class="left-side__link">power supplies</a></li>
+						</ul>	
+					</div>
+					<div class="best-seller left-side__best-seller">
+						<h2 class="left-side__best-title">best sellers</h2>
+						<div class="products-seller best-seller__item clearfix">
+							<a href="products.html" class="products-seller__link">
+								<img src="img/small/dell_sp2309w_1_small.png" alt="" class="products-seller__image">
+							</a>
+							<div class="products-seller__description">
+								<a href="products.html" class="products-seller__paragraphe">
+									<span class="products-seller__title">dell sp2309w</span>
+									<span class="products-seller__text">U2412M</span>
+								</a>
+								<span class="products-seller__new-price">€51.82</span>
+								<span class="products-seller__hold-price">€86.37</span>
+							</div>
+						</div>
+						<div class="products-seller best-seller__item clearfix">
+							<a href="products.html" class="products-seller__link">
+								<img src="img/small/dell_ultrasharp_u2412m_1_small.png" alt="" class="products-seller__image">
+							</a>
+							<div class="products-seller__description">
+								<a href="products.html" class="products-seller__paragraphe">
+									<span class="products-seller__title">DELL ULTRASHARP </span>
+									<span class="products-seller__text">U2412M</span>
+								</a>
+								<span class="products-seller__new-price">€67.37</span>
+								<span class="products-seller__hold-price">€86.37</span>
+							</div>
+						</div>
+						<div class="products-seller best-seller__item clearfix">
+							<a href="products.html" class="products-seller__link">
+								<img src="img/small/dell_ultrasharp_u2711_1_small.png" alt="" class="products-seller__image">
+							</a>
+							<div class="products-seller__description">
+								<a href="products.html" class="products-seller__paragraphe">
+									<span class="products-seller__title">DELL ULTRASHARP </span>
+									<span class="products-seller__text">U2711</span>
+								</a>
+								<span class="products-seller__new-price">€344.61</span>
+								<span class="products-seller__hold-price"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        <!-- content end -->
+		<div class="footer">
+			<div class="footer__cell clearfix">
+				<div class="nav-footer footer__item">
+					<h4 class="nav-footer__title">information</h4>
+					<ul class="nav-footer__list">
+						<li class="nav-footer__item"><a href="index.html" class="nav-footer__link footer-active"><i class="fas fa-caret-right nav-footer__icon"></i>Home</a></li>
+						<li class="nav-footer__item"><a href="#" class="nav-footer__link"><i class="fas fa-caret-right nav-footer__icon"></i>Search</a></li>
+						<li class="nav-footer__item"><a href="blog.html" class="nav-footer__link"><i class="fas fa-caret-right nav-footer__icon"></i>Blog</a></li>
+						<li class="nav-footer__item"><a href="about.html" class="nav-footer__link"><i class="fas fa-caret-right nav-footer__icon"></i>About</a></li>
+						<li class="nav-footer__item"><a href="documentation.html" class="nav-footer__link"><i class="fas fa-caret-right nav-footer__icon"></i>Documentation</a></li>
+						<li class="nav-footer__item"><a href="contact.html" class="nav-footer__link"><i class="fas fa-caret-right nav-footer__icon"></i>Contact us</a></li>
+					</ul>
+				</div>
+				<div class="nav-footer footer__item">
+					<h4 class="nav-footer__title">my account</h4>
+					<ul class="nav-footer__list">
+						<li class="nav-footer__item"><a href="#" class="nav-footer__link"><i class="fas fa-caret-right nav-footer__icon"></i>My account</a></li>
+						<li class="nav-footer__item"><a href="#" class="nav-footer__link"><i class="fas fa-caret-right nav-footer__icon"></i>My addresses</a></li>
+						<li class="nav-footer__item"><a href="#" class="nav-footer__link"><i class="fas fa-caret-right nav-footer__icon"></i>My cart</a></li>
+					</ul>
+				</div>
+				<div class="nav-footer footer__item">
+					<h4 class="nav-footer__title">Follow Us</h4>
+					<ul class="nav-footer__list">
+						<li class="nav-footer__item"><a href="#" class="nav-footer__link"><i class="fab fa-twitter nav-footer__icon"></i>Twitter</a></li>
+						<li class="nav-footer__item"><a href="#" class="nav-footer__link"><i class="fab fa-facebook-f nav-footer__icon"></i>Facebook</a></li>
+						<li class="nav-footer__item"><a href="#" class="nav-footer__link"><i class="fab fa-google-plus-g nav-footer__icon"></i>Google+</a></li>
+					</ul>
+				</div>
+				<div class="nav-footer footer__item">
+					<h4 class="nav-footer__title">contacts</h4>
+					<ul class="nav-footer__list">
+						<li class="nav-footer__item">
+							<span class="nav-footer__text">My company</span>
+						</li>
+						<li class="nav-footer__item">
+							<p class="nav-footer__address">4578 Marmora Road, Glasgow D04 89GR</p>
+						</li>
+						<li class="nav-footer__item">
+							<span class="nav-footer__phone">Tel: 1(234) 563 4236</span>
+						</li>
+						<li class="nav-footer__item">
+							<span class="nav-footer__mail">Email: <a class="nav-footer__link-mail" href="mailto:info@demolink.org">info@demolink.org</a></span>
+						</li>
+					</ul>
+				</div>	
+			</div>
+			<div class="footer__footer">
+				<div class="footer__footer-cell">
+					<p class="footer__copyright">
+					   © 2018 Computers. All Rights Reserved. 
+				    </p>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<script defer src="js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript">
+		$(window).load(function() {
+			$('.flexslider').flexslider({
+			   animation: "fade"
+			});
+		});
+	</script>
+
+</body>
+</html>
+
+
+
+
